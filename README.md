@@ -7,7 +7,7 @@ M04
 Perusahaan *e-commerce* bernama sepatu nike, membutuhkan sistem rekomendasi produk sepatu untuk *platform* *e-commerce* mereka. Kondisi *platform* masih baru dan penggunannya masih sedikit, sehingga untuk mengatasi kondisi *cold start* tersebut sistem rekomendasi yang sesuai yaitu *content-based filtering*. Sistem rekomendasi yang dibuat akan merokemendasikan produk sepatu Nike berdasarkan kategori atau subkategorinya.
 
 
-M.Rizki Putra Utama (2019)  melakukan penelitian tentang *E-Commerce Recommender System* (*Content-Based Filtering*) menggunakan metode *Gradient boosting* dan menghasilkan rata-rata *precision* untuk setiap kategori di antara 67.03 - 73.14% [[1]](http://strategi.it.maranatha.edu/index.php/strategi/article/view/17)  Sejalan dengan hal tersebut, solusi yang ditawarkan pada kasus ini adalah sistem rekomendasi (*content based filtering*) dengan menggunakan metode *Cosine Similarity* dan *Euclidean Similarity* dengan metrik yang digunakan metrik *precision*.
+M.Rizki Putra Utama (2019)  melakukan penelitian tentang *E-Commerce Recommender System* (*Content-Based Filtering*) menggunakan metode *Gradient boosting* dan dapat menghasilkan rata-rata *precision* untuk setiap kategori di antara 67.03 - 73.14% [[1]](http://strategi.it.maranatha.edu/index.php/strategi/article/view/17)  Sejalan dengan hal tersebut, oleh karna itu solusi yang ditawarkan pada kasus ini adalah sistem rekomendasi (*content based filtering*) dengan menggunakan metode *Cosine Similarity* dan *Euclidean Similarity* dengan metrik yang digunakan metrik *precision*.
 
 ## Business Understanding
 ### Problem Statements
@@ -18,7 +18,7 @@ Bagaimana cara membuat sistem rekomendasi dengan metode terbaik untuk rekomendas
 
 ### Goals
 
-Mengetahui cara membuat sistem rekomendasi dengan metode terbaik untuk rekomendasi produk sepatu Nike berdasarkan kategori atau subkategorinya.
+Mengetahui cara membuat sistem rekomendasi dengan metode terbaik untuk rekomendasi produk sepatu berdasarkan kategori atau subkategorinya.
 
 ### Solution Statements
 
@@ -340,9 +340,8 @@ Tabel 16. Komparasi Waktu Komputasi
 |---|---|---|
 |Time \(Seconds\)|0\.038852691650390625|0\.11328577995300293|
 
-Berdasarkan output di atas, waktu komputasi pada metode Cosine Similarity (0.03885 detik) lebih cepat dibandingkan Euclidean Similarity (0.11328 detik).
 
-Jadi dapat disimpulkan bahwa model terbaik untuk sistem rekomendasi produk sepatu adalah model dengan metode *Cosine Similarity*.
+Disimpulkan bahwa model terbaik untuk sistem rekomendasi produk sepatu adalah model dengan metode *Cosine Similarity*.
 
 ## Daftar Referensi
 [1]M.Rizki Putra Utama (2019) [Tautan] (http://strategi.it.maranatha.edu/index.php/strategi/article/view/17)
